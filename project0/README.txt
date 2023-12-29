@@ -1,0 +1,1 @@
+From CIT 5950, I hope to learn Operating Systems, which will in turn help me crack job interviews. I failed to answer a few questions in my past interviews because of insufficient knowledge of OS. I plan to fill that gap using this material.
