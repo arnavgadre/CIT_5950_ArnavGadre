@@ -1,1 +1,1 @@
-From CIT 5950, I hope to learn Operating Systems, which will in turn help me crack job interviews. I failed to answer a few questions in my past interviews because of insufficient knowledge of OS. I plan to fill that gap using this material.
+In this class I aim to learn the basics of operating systems, which will help me in job interviews later. I was not able to answer OS questions in few of my interviews, and the course material here helps me solidify those topics.
