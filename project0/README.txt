@@ -1,1 +1,1 @@
-In this class I aim to learn the basics of operating systems, which will help me in job interviews later. I was not able to answer OS questions in few of my interviews, and the course material here helps me solidify those topics.
+This is a new readme file!
