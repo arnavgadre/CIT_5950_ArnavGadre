@@ -137,5 +137,25 @@ void writeToStdout(char *text) {
  * buffer are assigned to command and returned. An \0 is appended to the command so
  * that it is null terminated */
 char *getCommandFromInput() {
-    return "/bin/ls";
+
+    char *input = NULL;
+    size_t input_size = 0;
+    
+    // Read user input from stdin
+    ssize_t characters_read = getline(&input, &input_size, stdin);
+
+    if (characters_read == -1) {
+        perror("getline");
+        exit(EXIT_FAILURE);
+    }
+
+    // Trim leading and trailing spaces and newline character
+    while (characters_read > 0 && (input[characters_read - 1] == ' ' || input[characters_read - 1] == '\n')) {
+        input[characters_read - 1] = '\0';
+        characters_read--;
+    }
+
+    return input;
+    
+    // return "/bin/ls";
 }
