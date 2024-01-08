@@ -145,7 +145,6 @@ char *getCommandFromInput() {
     ssize_t characters_read = getline(&input, &input_size, stdin);
 
     if (characters_read == -1) {
-        perror("getline");
         exit(EXIT_FAILURE);
     }
 
